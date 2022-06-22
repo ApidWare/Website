@@ -1,0 +1,32 @@
+{
+  "name": "apidware-website",
+  "version": "1.0.0",
+  "description": "The official ApidWare website",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApidWare/website.git"
+  },
+  "keywords": [
+    "website",
+    "apidware"
+  ],
+  "author": "ApidBoy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ApidWare/website/issues"
+  },
+  "homepage": "https://github.com/ApidWare/website#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
